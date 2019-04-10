@@ -1,0 +1,22 @@
+.aboutus-cnt {
+  margin-top: 40px;
+}
+
+.aboutus-cnt p {
+  font-size: 12px;
+}
+.waqf-exam-list {
+  padding-left: 20px;
+}
+.waqf-exam-list li {
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+.aboutus-table tr td {
+  vertical-align: middle;
+}
+.aboutus-table tr th {
+  width: 120px;
+  vertical-align: middle;
+}
