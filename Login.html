@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" href="/images/favicon.ico" type="image/gif" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/infra.css" />
-    <title>KPTrust | Infrastructure</title>
+    <link rel="stylesheet" href="./css/Login.css" />
+
+    <title>
+      KPTrust | Login
+    </title>
   </head>
   <body>
     <header>
@@ -79,7 +78,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav nav-bar nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="aboutus.html">About Us</a>
                 </li>
                 <li class="nav-item">
@@ -91,10 +90,10 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                  <a class="nav-link" href="Contactus.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Login.html">login</a>
+                  <a class="nav-link" href="#">login</a>
                 </li>
               </ul>
             </div>
@@ -130,126 +129,42 @@
       </div>
     </div>
 
-    <section class="infrastructure-cnt">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h4>Infrastructure</h4>
+    <div class="container">
+      <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <p>Login here</p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <img
-              src="./images/kptrust-building.jpg"
-              alt="kptrust building"
-              class="img-fluid"
+
+          <!-- Login Form -->
+          <form>
+            <input
+              type="text"
+              id="login"
+              class="fadeIn second"
+              name="login"
+              placeholder="username"
             />
-          </div>
-          <div class="col-sm-8">
-            <table class="table-responsive">
-              <tr>
-                <td>
-                  <div class="infra-heading">Building</div>
-                </td>
-                <td>
-                  <ul>
-                    <li>
-                      Three Story Building with three training hall
-                    </li>
-                    <li>Each Hall is 1200 sq ft.</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="infra-heading">Projector</div>
-                </td>
-                <td>
-                  <ul>
-                    <li>
-                      Two projectors with internet connection
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="infra-heading">Library</div>
-                </td>
-                <td>
-                  <ul>
-                    <li>
-                      Providing books of different authors
-                    </li>
-                    <li>
-                      Reference books
-                    </li>
-                    <li>
-                      Notes
-                    </li>
-                    <li>
-                      Magazines
-                    </li>
-                    <li>
-                      Newspapers
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="infra-heading">Computer Facilities</div>
-                </td>
-                <td>
-                  <ul>
-                    <li>Eight Computers with broad band internet connection</li>
-                    <li>Printing facilities</li>
-                    <li>Storage facilities for each student</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="infra-heading">Power backup</div>
-                </td>
-                <td>
-                  <ul>
-                    <li>
-                      For computers and all the training halls
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="infra-heading">Study Room</div>
-                </td>
-                <td>
-                  <ul>
-                    <li>
-                      Student can study till late evening using the computer and
-                      library facilities
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="infra-heading">Wash Room</div>
-                </td>
-                <td>
-                  <ul>
-                    <li>
-                      Three wash room one on each floor
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </table>
+            <input
+              type="text"
+              id="password"
+              class="fadeIn third"
+              name="login"
+              placeholder="password"
+            />
+            <input type="submit" class="fadeIn fourth" value="Log In" />
+          </form>
+
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <footer class="mt-5">
       2019 © Knowledge Park Charitable Trust All right reserved.

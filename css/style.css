@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  height: 100%;
+  height: 100vh;
   position: relative;
   padding-bottom: 70px;
   box-sizing: border-box;
@@ -11,7 +11,7 @@ hr {
 }
 
 table {
-  font-size: 12px;
+  font-size: 16px;
 }
 table tr td,
 table tr th {
@@ -32,7 +32,7 @@ table tr th {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0;
-  background: #5c5c5c;
+
   font-size: 10px;
   padding: 5px 0;
   color: rgba(255, 255, 255, 0.5);
@@ -50,7 +50,7 @@ table tr th {
 }
 .navbar-brand img {
   /* max-width: 70%; */
-  max-width: 100%;
+  max-width: 130%;
 }
 .navbar-nav .nav-link {
   background: none;
@@ -134,20 +134,28 @@ table tr th {
   align-content: flex-end;
   justify-content: flex-end;
 }
+
+.waqf-container table tr td p {
+  margin: 0;
+}
+.waqf-container table tr td:first-child {
+  width: 150px;
+}
 .waqf-btn {
-  border: solid 1px #e42700;
-  border-radius: 20px;
-  margin-bottom: 0;
-  padding: 10px 20px;
   font-size: 12px;
-  width: 160px;
+  padding: 12px 20px;
   text-align: center;
-  color: #e42700;
-  justify-content: center;
+  display: block;
+  transition: all 0.2s ease-in-out 0.1s;
+  background: red;
 }
 .waqf-btn:hover {
   color: var(--white);
   background: #e42700;
+}
+
+.heading {
+  font-weight: 600;
 }
 .announcement-text {
   font-weight: 600;
@@ -200,4 +208,20 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0;
+}
+.footer-body {
+  padding-bottom: 150px;
+}
+/*HOVER CSS*/
+.file_menu {
+  display: none;
+  width: 300px;
+  border: 1px solid #1c1c1c;
+  position: relative;
+  list-style: none;
+}
+.dropdown-menu.show {
+  padding: 0;
+  margin-top: 0;
+  border: none;
 }
